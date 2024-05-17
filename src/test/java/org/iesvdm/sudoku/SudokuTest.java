@@ -3,6 +3,7 @@ package org.iesvdm.sudoku;
 //import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 public class SudokuTest {
@@ -70,8 +71,6 @@ public class SudokuTest {
         assertTrue(sudoku.solveBoard());
     }
 
-    private void assertTrue(boolean b) {
-    }
 
 
 }
