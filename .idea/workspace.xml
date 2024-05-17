@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4924cbe-497e-42d5-8035-47d9055b38bf" name="Changes" comment="inicial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/entity/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/entity/Appointment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/repository/AppointmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/repository/AppointmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/repository/impl/AppointmentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/appointment/repository/impl/AppointmentRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/appointment/repository/AppointmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/appointment/repository/AppointmentRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/sudoku/SudokuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/sudoku/SudokuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/appointment/service/impl/ExchangeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/appointment/service/impl/ExchangeServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +45,7 @@
     "JUnit.AppointmentRepositoryImplTest.getEligibleAppointmentsForExchangeTest.executor": "Run",
     "JUnit.AppointmentRepositoryImplTest.getOneTest.executor": "Run",
     "JUnit.AppointmentRepositoryImplTest.saveTest.executor": "Run",
+    "JUnit.ExchangeServiceImplTest.checkIfEligibleForExchange.executor": "Run",
     "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,7 +73,7 @@
       <recent name="org.iesvdm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppointmentRepositoryImplTest.getEligibleAppointmentsForExchangeTest">
+  <component name="RunManager" selected="JUnit.ExchangeServiceImplTest.checkIfEligibleForExchange">
     <configuration name="AppointmentRepositoryImplTest.findByCustomerIdWithStartInPeroidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebaud4daw" />
       <extension name="coverage">
@@ -142,17 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppointmentRepositoryImplTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExchangeServiceImplTest.checkIfEligibleForExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebaud4daw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.iesvdm.appointment.repository.*" />
+          <option name="PATTERN" value="org.iesvdm.appointment.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.iesvdm.appointment.repository" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.appointment.repository.AppointmentRepositoryImplTest" />
-      <option name="METHOD_NAME" value="saveTest" />
+      <option name="PACKAGE_NAME" value="org.iesvdm.appointment.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.appointment.service.impl.ExchangeServiceImplTest" />
+      <option name="METHOD_NAME" value="checkIfEligibleForExchange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExchangeServiceImplTest.checkIfEligibleForExchange" />
         <item itemvalue="JUnit.AppointmentRepositoryImplTest.getEligibleAppointmentsForExchangeTest" />
         <item itemvalue="JUnit.AppointmentRepositoryImplTest.findByCustomerIdWithStartInPeroidTest" />
         <item itemvalue="JUnit.AppointmentRepositoryImplTest.findScheduledWithEndBeforeDateTest" />
         <item itemvalue="JUnit.AppointmentRepositoryImplTest.findCanceledByUserTest" />
-        <item itemvalue="JUnit.AppointmentRepositoryImplTest.saveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,8 +181,17 @@
       <updated>1715841695703</updated>
       <workItem from="1715841696736" duration="9923000" />
       <workItem from="1715873916029" duration="12533000" />
-      <workItem from="1715926823958" duration="4564000" />
+      <workItem from="1715926823958" duration="5579000" />
     </task>
+    <task id="LOCAL-00001" summary="inicial">
+      <option name="closed" value="true" />
+      <created>1715931541853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715931541853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
