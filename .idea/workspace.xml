@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4924cbe-497e-42d5-8035-47d9055b38bf" name="Changes" comment="inicial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/appointment/service/impl/ExchangeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/appointment/service/impl/ExchangeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/sudoku/SudokuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/sudoku/SudokuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <recent name="org.iesvdm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExchangeServiceImplTest.checkIfEligibleForExchange">
+  <component name="RunManager" selected="JUnit.SudokuTest.fillBoardBasedInCluesRandomly">
     <configuration name="AppointmentRepositoryImplTest.findByCustomerIdWithStartInPeroidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebaud4daw" />
       <extension name="coverage">
@@ -85,22 +84,6 @@
       <option name="PACKAGE_NAME" value="org.iesvdm.appointment.repository" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.appointment.repository.AppointmentRepositoryImplTest" />
       <option name="METHOD_NAME" value="findByCustomerIdWithStartInPeroidTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppointmentRepositoryImplTest.findCanceledByUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pruebaud4daw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iesvdm.appointment.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iesvdm.appointment.repository" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.appointment.repository.AppointmentRepositoryImplTest" />
-      <option name="METHOD_NAME" value="findCanceledByUserTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,13 +137,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SudokuTest.fillBoardBasedInCluesRandomly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebaud4daw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.sudoku" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.sudoku.SudokuTest" />
+      <option name="METHOD_NAME" value="fillBoardBasedInCluesRandomly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SudokuTest.fillBoardBasedInCluesRandomly" />
         <item itemvalue="JUnit.ExchangeServiceImplTest.checkIfEligibleForExchange" />
         <item itemvalue="JUnit.AppointmentRepositoryImplTest.getEligibleAppointmentsForExchangeTest" />
         <item itemvalue="JUnit.AppointmentRepositoryImplTest.findByCustomerIdWithStartInPeroidTest" />
         <item itemvalue="JUnit.AppointmentRepositoryImplTest.findScheduledWithEndBeforeDateTest" />
-        <item itemvalue="JUnit.AppointmentRepositoryImplTest.findCanceledByUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +180,7 @@
       <updated>1715841695703</updated>
       <workItem from="1715841696736" duration="9923000" />
       <workItem from="1715873916029" duration="12533000" />
-      <workItem from="1715926823958" duration="5579000" />
+      <workItem from="1715926823958" duration="5887000" />
     </task>
     <task id="LOCAL-00001" summary="inicial">
       <option name="closed" value="true" />
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715931541853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="inicial">
+      <option name="closed" value="true" />
+      <created>1715932687886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715932687886</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
