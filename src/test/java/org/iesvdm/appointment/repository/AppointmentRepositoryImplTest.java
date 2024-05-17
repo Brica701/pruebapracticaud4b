@@ -142,8 +142,9 @@ public class AppointmentRepositoryImplTest {
         assertTrue(appointments.contains(appointment1));
         assertFalse(appointments.contains(appointment2));
         assertFalse(appointments.contains(appointment3));
-
-    }
+    /**Fallo por los números de las  ids, yo esperaba que no fallara
+    */
+     }
 
 
     /**
