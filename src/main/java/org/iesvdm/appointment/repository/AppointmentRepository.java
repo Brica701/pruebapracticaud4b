@@ -23,4 +23,5 @@ public interface AppointmentRepository {
 
     public List<Appointment> findExchangeRequestedWithStartBefore(LocalDateTime date);
 
+    void add(Appointment appointment1);
 }

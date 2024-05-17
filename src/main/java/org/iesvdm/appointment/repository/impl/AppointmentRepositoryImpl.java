@@ -68,4 +68,12 @@ public class AppointmentRepositoryImpl implements AppointmentRepository {
                                                             && appointment.getStart().isBefore(date))
                                     .toList();
     }
+
+    /**
+     * @param appointment1
+     */
+    @Override
+    public void add(Appointment appointment1) {
+
+    }
 }

@@ -81,8 +81,7 @@ public class Appointment extends BaseEntity implements Comparable<Appointment> {
         return canceler;
     }
 
-    public void setCanceler(User canceler) {
-        this.canceler = canceler;
+    public void setCanceler(int canceler) {
     }
 
     public LocalDateTime getCanceledAt() {

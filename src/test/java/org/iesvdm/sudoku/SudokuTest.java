@@ -13,4 +13,11 @@ public class SudokuTest {
         sudoku.printBoard();
     }
 
+    @Test
+    void fillBoardBasedInCluesRandomly(){
+        Sudoku sudoku = new Sudoku();
+        sudoku.fillBoardBasedInCluesRandomlySolvable();
+
+    }
+
 }

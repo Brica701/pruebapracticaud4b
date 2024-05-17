@@ -16,6 +16,10 @@ public class User extends BaseEntity {
         this.password = password;
     }
 
+    public User(int i) {
+
+    }
+
     public String getUserName() {
         return userName;
     }
